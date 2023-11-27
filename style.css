@@ -1,0 +1,92 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body img {
+    width: 30%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 400px;
+    height: 450px;
+    border: 1px rgb(157, 157, 157) solid;
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 5px;
+}
+
+h2{
+    font-size: 200%;
+    margin-top: 10px;
+}
+
+div.txtInputs input {
+    border: gray 1px solid;
+    border-radius: 5;
+    width: 390px;
+    margin: 5px 0px;
+    height: 25px;
+}
+
+.double {
+    display: flex;
+    width: 390px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #5693ff;
+}
+
+button {
+    width: 395px;
+    height: 35px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(#f6f6f7, #e8e9ea);
+    font-size: 15px;
+}
+
+#grad{
+    background-image: linear-gradient(#f6dc9c, #f0c24e);
+    height: 40px;
+    font-size: 20px;
+}
+
+#inblurb {
+    padding-top: 10px;
+}
+
+#inBlurb * {
+    display: inline
+}
+
+hr {
+    width: 100px;
+    height:0;
+    margin-top:25px;
+}
+
+div.doubl p{
+    display: inline;
+}
+
+#keeper{
+    font-size:17px;  
+    display:flex;
+    text-wrap: nowrap;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+#keeper label{
+    padding-left:5px
+}
